@@ -1,3 +1,26 @@
+### Requisitos da aplicação
+
+- Java JDK 1.8
+- Apache Maven 3.3
+
+## Configuração de Banco de Dados
+A configuração segue o padrão do projeto Spring Boot, e está sendo utilizado o banco hsqldb em memória, o qual é recriado a cada inicialiação da aplicação.
+Para alterar os dados de conexão da base de dados verifique o link https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-sql.html 
+
+## Executando a aplicação
+Efetue o clone do repositório, e utilize o comando abaixo :
+
+* mvn spring-boot:run
+
+Acesse o endereço http://localhost:8080/swagger-ui.html e você terá verá a API, ali podem ser realizados testes.
+
+## Executando os testes da aplicação 
+Após efetuar o clone da aplicação utilize o comando abaixo :
+
+* mvn test
+
+## <--------------------------------------------------------------------------------------------------------------------------------------------------------->
+
 # Desafio de programação 1
 A idéia deste desafio é nos permitir avaliar melhor as habilidades de candidatos à vagas de programador, de vários níveis.
 
